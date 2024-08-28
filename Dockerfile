@@ -1,5 +1,5 @@
 # Use the official Node.js image as the base image
-FROM node:latest
+FROM node:22-bookworm-slim
 # If you're using M1, M2 Mac, try this: 
 # FROM  --platform=linux/amd64 node:22.2.0-alpine3.20
 
